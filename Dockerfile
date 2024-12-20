@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 프로젝트 복사
 COPY capstone_design/ ./capstone_design
 
-
+# 두 번째 시도
 # Flask 설정
 ENV FLASK_APP=capstone_design.run
 ENV FLASK_ENV=production
